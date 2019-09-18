@@ -7,38 +7,38 @@
 let sum = computeSum(a,b)
 ```
 
-###Function: prompt
+### Function: prompt
 The prompt function shows a popup with a textbox and allows the user to enter a value.
 
-###Function: Math Object
+### Function: Math Object
 The ```Math``` object provides lots of math related functions.
 Examples:
 - ```let min = Math.min(a,b);```
 - ```let sqrt = Math.sqrt(a);```
 
-###Random Numbers
+### Random Numbers
 The ```Math.random()``` generates random floating number.
 
-###Number
+### Number
 The ```Number``` function conversta ny other value to its number representation
 - ```let age = Number(prompt("Age: "));```
 
-###parseInt
+### parseInt
 The ```parseInt``` function parses the integer part of a string until a non-int character is found.
 - ```let val = parseInt("200 years");```
 
-###parseFloat
+### parseFloat
 Parses a string and returns a floating point number. It parses the string until it reaches the end of the number, and returns the number as a number, not a string. 
 
-###String
+### String
 The ```String``` function converts any other value to its string representation
 - ```let isRight = String(true);```
 
-###isNaN
+### isNaN
 The ```isNan``` function checks if a value is not a number.
 - ```isNan(False) //False```
 
-##Functions
+## Functions
 A function consists of the following parts:
 - Name
 - Parameters
