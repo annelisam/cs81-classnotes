@@ -48,7 +48,7 @@ A function consists of the following parts:
 ## Function Notations
 1. Declaration notation
 - Start with the ```function``` keyword followed by an identifier, an optional list of parameters and the function body.
-* ```
+```
 function printHello() {
     console.log("Hello");
 }
@@ -59,14 +59,14 @@ function area(width, length) {
 
 2. Variable notation
 - Declaring a const variable assigned to the function.
-* ``` 
+``` 
 const printHello = function(){
     console.log("Hello")
 }
 ```
 
 3. Arrow notation
-* ```
+```
 const printWelcome = () => {
     console.log("Hello");
 }
