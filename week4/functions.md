@@ -74,7 +74,7 @@ const printWelcome = () => {
 
 ## Calling a Function
 Calling a function is done by the function name followed by arguments within a pair of parenthesis.
-> ```
+```
 var person = {
   firstName:"John",
   lastName: "Doe",
