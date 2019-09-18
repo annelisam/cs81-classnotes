@@ -7,40 +7,78 @@
 let sum = computeSum(a,b)
 ```
 
-### Function: prompt
+#### Prompt
 The prompt function shows a popup with a textbox and allows the user to enter a value.
 
-### Function: Math Object
+#### Math Object
 The ```Math``` object provides lots of math related functions.
 Examples:
 - ```let min = Math.min(a,b);```
 - ```let sqrt = Math.sqrt(a);```
 
-### Random Numbers
+#### Random Numbers
 The ```Math.random()``` generates random floating number.
 
-### Number
+#### Number
 The ```Number``` function conversta ny other value to its number representation
 - ```let age = Number(prompt("Age: "));```
 
-### parseInt
+#### parseInt
 The ```parseInt``` function parses the integer part of a string until a non-int character is found.
 - ```let val = parseInt("200 years");```
 
-### parseFloat
+#### parseFloat
 Parses a string and returns a floating point number. It parses the string until it reaches the end of the number, and returns the number as a number, not a string. 
 
-### String
+#### String
 The ```String``` function converts any other value to its string representation
 - ```let isRight = String(true);```
 
-### isNaN
+#### isNaN
 The ```isNan``` function checks if a value is not a number.
 - ```isNan(False) //False```
 
-## Functions
+# Functions
 A function consists of the following parts:
 - Name
 - Parameters
 - Body
 - Return Value: Functions may return a value using the ```return``` keyword followed by an expression
+
+## Function Notations
+1. Declaration notation
+- Start with the ```function``` keyword followed by an identifier, an optional list of parameters and the function body.
+```
+function printHello() {
+    console.log("Hello");
+}
+function area(width, length) {
+    return(width*length);
+}
+```
+2. Variable notation
+- Declaring a const variable assigned to the function.
+``` 
+const printHello = function(){
+    console.log("Hello")
+}
+```
+3. Arrow notation
+```
+const printWelcome = () => {
+    console.log("Hello");
+}
+```
+
+## Calling a Function
+Calling a function is done by the function name followed by arguments within a pair of parenthesis.
+```
+var person = {
+  firstName:"John",
+  lastName: "Doe",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  }
+}
+person.fullName(); // Will return "John Doe"
+```
